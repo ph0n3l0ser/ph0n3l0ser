@@ -4,7 +4,6 @@
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
-<!---
-ph0n3l0ser/ph0n3l0ser is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+What I did was goto the Windows Command Prompt by hitting the WINDOWS + S keys together to get the Windows Search bar. Then I typed `cmd` and ran the Windows Command Prompt as Administrator. Once the Windows Command Prompt came up then I ran the command `fsutil file createnew forgetsphone.lol [size]`; where size is the number of bytes to fill the file with. We can calculate the file size in bytes like so (1024 * 1024 * 1024 * 1) = 1 GiB. That is 1024 Bytes * 1024 Kilobytes * 1024 megabytes = 1 Gigabyte. I ran that command repeatedly for all the remaining space on the C: drive. Once the C: drive was full I then moved to the D: drive by `cd D:` which is change directory to D:. Once moved over I re-ran the fsutil command until all space was filled.
+
+To delete the files, in the same Windows Command Prompt window run `del /f *.lol` which deletes all the lol files from the current folder that you're under.
